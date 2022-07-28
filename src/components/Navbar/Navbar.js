@@ -13,6 +13,23 @@ export default function Navbar() {
               </Link>
             </p>
           </li>
+          <Link to='/aboutme'>
+            <li>
+              <a
+                href=''
+                class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
+              >
+                <img
+                  src={require('../../images/initials.png')}
+                  aria-hidden='true'
+                  class='w-6 aspect-auto text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
+                  fill='currentColor'
+                  viewBox='0 0 20 20'
+                ></img>
+                <span class='ml-3'>About Me</span>
+              </a>
+            </li>
+          </Link>
           <Link to='/engineering'>
             <li>
               <a
@@ -64,20 +81,21 @@ export default function Navbar() {
               </a>
             </li>
           </Link>
-        </ul>
-        <div class='grow'></div>
-        <ul class='flex flex-row justify-around'>
           <li>
             <a
               href='https://github.com/cjeong1021'
               target='_blank'
               rel='noopener noreferrer'
+              class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
             >
               <img
                 src={require('../../images/github.png')}
-                alt='Github Logo'
-                class='h-8 hover:bg-gray-200 rounded-lg py-1 px-1'
-              />
+                aria-hidden='true'
+                class='w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
+                fill='currentColor'
+                viewBox='0 0 20 20'
+              ></img>
+              <span class='ml-3'>Github</span>
             </a>
           </li>
           <li>
@@ -85,13 +103,16 @@ export default function Navbar() {
               href='https://www.linkedin.com/in/christopher-jeong/'
               target='_blank'
               rel='noopener noreferrer'
-              className='hover:bg-gray-100'
+              class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
             >
               <img
                 src={require('../../images/linkedin.png')}
-                alt='Github Logo'
-                class='h-8 hover:bg-gray-200 rounded-lg py-1 px-1'
-              />
+                aria-hidden='true'
+                class='w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
+                fill='currentColor'
+                viewBox='0 0 20 20'
+              ></img>
+              <span class='ml-3'>Linkedin</span>
             </a>
           </li>
         </ul>
