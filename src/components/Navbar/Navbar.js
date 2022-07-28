@@ -25,7 +25,7 @@ export default function Navbar() {
                 fill='currentColor'
                 viewBox='0 0 20 20'
               ></img>
-              <span class='ml-3'>Engineering Projects</span>
+              <span class='ml-3'>Robotics Projects</span>
             </a>
           </li>
           <li>
