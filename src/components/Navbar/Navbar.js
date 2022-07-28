@@ -13,51 +13,57 @@ export default function Navbar() {
               </Link>
             </p>
           </li>
-          <li>
-            <a
-              href='/portfolio/engineering'
-              class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
-            >
-              <img
-                src={require('../../images/robotics.png')}
-                aria-hidden='true'
-                class='w-6 h-6 aspect-auto text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
-                fill='currentColor'
-                viewBox='0 0 20 20'
-              ></img>
-              <span class='ml-3'>Robotics Projects</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href='/portfolio/software'
-              class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
-            >
-              <img
-                src={require('../../images/software.png')}
-                aria-hidden='true'
-                class='w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
-                fill='currentColor'
-                viewBox='0 0 20 20'
-              ></img>
-              <span class='ml-3'>Software Projects</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href='/portfolio/contact'
-              class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
-            >
-              <img
-                src={require('../../images/email.png')}
-                aria-hidden='true'
-                class='w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
-                fill='currentColor'
-                viewBox='0 0 20 20'
-              ></img>
-              <span class='ml-3'>Contact</span>
-            </a>
-          </li>
+          <Link to='/engineering'>
+            <li>
+              <a
+                href=''
+                class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
+              >
+                <img
+                  src={require('../../images/robotics.png')}
+                  aria-hidden='true'
+                  class='w-6 h-6 aspect-auto text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
+                  fill='currentColor'
+                  viewBox='0 0 20 20'
+                ></img>
+                <span class='ml-3'>Robotics Projects</span>
+              </a>
+            </li>
+          </Link>
+          <Link to='/software'>
+            <li>
+              <a
+                href='/portfolio/software'
+                class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
+              >
+                <img
+                  src={require('../../images/software.png')}
+                  aria-hidden='true'
+                  class='w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
+                  fill='currentColor'
+                  viewBox='0 0 20 20'
+                ></img>
+                <span class='ml-3'>Software Projects</span>
+              </a>
+            </li>
+          </Link>
+          <Link to='/contact'>
+            <li>
+              <a
+                href=''
+                class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
+              >
+                <img
+                  src={require('../../images/email.png')}
+                  aria-hidden='true'
+                  class='w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
+                  fill='currentColor'
+                  viewBox='0 0 20 20'
+                ></img>
+                <span class='ml-3'>Contact</span>
+              </a>
+            </li>
+          </Link>
         </ul>
         <div class='grow'></div>
         <ul class='flex flex-row justify-around'>
