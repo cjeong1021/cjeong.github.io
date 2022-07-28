@@ -115,6 +115,23 @@ export default function Navbar() {
               <span class='ml-3'>Linkedin</span>
             </a>
           </li>
+          <li>
+            <a
+              href='https://drive.google.com/file/d/1hrDGZRtQm2h9RZJOx7gvhnvL8KA2xA5-/view?usp=sharing'
+              target='_blank'
+              rel='noopener noreferrer'
+              class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
+            >
+              <img
+                src={require('../../images/resume.webp')}
+                aria-hidden='true'
+                class='w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white'
+                fill='currentColor'
+                viewBox='0 0 20 20'
+              ></img>
+              <span class='ml-3'>Resume</span>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
