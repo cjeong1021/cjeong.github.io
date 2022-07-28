@@ -15,7 +15,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href='/engineering'
+              href='/portfolio/engineering'
               class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
             >
               <img
@@ -30,7 +30,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href='/software'
+              href='/portfolio/software'
               class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
             >
               <img
@@ -45,7 +45,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href='/contact'
+              href='/portfolio/contact'
               class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
             >
               <img
