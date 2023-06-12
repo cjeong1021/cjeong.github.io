@@ -195,7 +195,7 @@ export default function Software() {
           </ul>
         </div>
         <div className='hidden md:block col-start-2 row-start-1 row-span-3 justify-self-center'>
-          <img src={require('../../images/petstagram.jpeg')} className='h-64' />
+          <img src={require('../../images/coffeejournal.png')} className='h-64' />
         </div>
       </div>
     </div>
