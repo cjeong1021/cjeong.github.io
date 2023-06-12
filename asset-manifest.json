@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.71a2c675.css",
-    "main.js": "/portfolio/static/js/main.f38fbc08.js",
+    "main.css": "/portfolio/static/css/main.bb90f799.css",
+    "main.js": "/portfolio/static/js/main.5540e03a.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/monsterhunter.png": "/portfolio/static/media/monsterhunter.962aac8f5849f0bbfc87.png",
     "static/media/home_image.png": "/portfolio/static/media/home_image.d1481fd14f4aea63e23d.png",
@@ -9,15 +9,17 @@
     "static/media/robot.png": "/portfolio/static/media/robot.f23f6cb36af1c6ff50eb.png",
     "static/media/chimptest.png": "/portfolio/static/media/chimptest.1165ef666f10499be344.png",
     "static/media/drone_project.jpeg": "/portfolio/static/media/drone_project.91ceeab8dda1a2abd316.jpeg",
+    "static/media/initials.png": "/portfolio/static/media/initials.38eb4eecfe6d77fd9ecd.png",
+    "static/media/resume.webp": "/portfolio/static/media/resume.da87cf0d27a033d549d7.webp",
     "static/media/email.png": "/portfolio/static/media/email.f8956154d5eb279fbb2f.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.71a2c675.css.map": "/portfolio/static/css/main.71a2c675.css.map",
-    "main.f38fbc08.js.map": "/portfolio/static/js/main.f38fbc08.js.map",
+    "main.bb90f799.css.map": "/portfolio/static/css/main.bb90f799.css.map",
+    "main.5540e03a.js.map": "/portfolio/static/js/main.5540e03a.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71a2c675.css",
-    "static/js/main.f38fbc08.js"
+    "static/css/main.bb90f799.css",
+    "static/js/main.5540e03a.js"
   ]
 }
