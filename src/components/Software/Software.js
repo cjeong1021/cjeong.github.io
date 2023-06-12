@@ -1,6 +1,6 @@
 export default function Software() {
   return (
-    <div className='flex flex-col overflow-scroll'>
+    <div className='flex flex-col p-4 md:p-0 md:overflow-scroll'>
       <div className='my-6 md:grid md:grid-cols-2'>
         <div className='text-2xl decoration-sky-500 underline col-start-1'>
           Chimp Test
@@ -31,7 +31,7 @@ export default function Software() {
           </a>
         </div>
         <div>
-          <ul className='flex flex-row justify-around text-m decoration-sky-500 underline'>
+          <ul className='flex flex-row flex-wrap justify-around text-m font-semibold'>
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
@@ -78,7 +78,7 @@ export default function Software() {
           </a>
         </div>
         <div>
-          <ul className='flex flex-row justify-around text-m decoration-sky-500 underline'>
+          <ul className='flex flex-row flex-wrap justify-around text-m font-semibold'>
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
@@ -131,13 +131,67 @@ export default function Software() {
           </a>
         </div>
         <div>
-          <ul className='flex flex-row justify-around text-m decoration-sky-500 underline'>
+          <ul className='flex flex-row flex-wrap justify-around text-m font-semibold'>
             <li>Javascript</li>
             <li>HTML</li>
             <li>CSS</li>
             <li>React</li>
             <li>NodeJS</li>
             <li>ExpressJS</li>
+          </ul>
+        </div>
+        <div className='hidden md:block col-start-2 row-start-1 row-span-3 justify-self-center'>
+          <img src={require('../../images/petstagram.jpeg')} className='h-64' />
+        </div>
+      </div>
+      <div className='my-6 md:grid md:grid-cols-2'>
+        <div className='text-2xl decoration-sky-500 underline col-start-1'>
+          Coffee Journal
+        </div>
+        <div className='text-lg my-6 col-start-1'>
+          A web app for taking notes on coffee. Users can sign up, login and
+          take notes on their favorite coffees. Keeping track of their favorites
+          roasts, brew methods and pictures. Frontend was built with React.
+          Backend was built with Django and PostgreSQL with user authentication
+          using JWT tokens.
+        </div>
+        <div>
+          <a
+            href='https://github.com/cjeong1021/coffee-journal-frontend'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='decoration-1 underline'
+          >
+            Frontend Github
+          </a>
+          <span> </span>/<span> </span>
+          <a
+            href='https://github.com/cjeong1021/coffee-journal-backend'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='decoration-1 underline'
+          >
+            Backend Github
+          </a>
+          <span> </span>/<span> </span>
+          <a
+            href='https://coffee-journal.surge.sh/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='decoration-1 underline'
+          >
+            Website
+          </a>
+        </div>
+        <div>
+          <ul className='flex flex-row flex-wrap justify-around text-m font-semibold'>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Django</li>
+            <li>PostgreSQL</li>
+            <li>JWT Auth</li>
           </ul>
         </div>
         <div className='hidden md:block col-start-2 row-start-1 row-span-3 justify-self-center'>

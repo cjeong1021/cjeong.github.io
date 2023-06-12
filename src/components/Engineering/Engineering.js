@@ -1,6 +1,6 @@
 export default function Engineering() {
   return (
-    <div className='flex flex-col overflow-scroll md:overflow-hidden'>
+    <div className='flex flex-col overflow-scroll p-4 md:overflow-hidden'>
       <div className='my-6 md:grid md:grid-cols-2'>
         <div className='text-2xl decoration-sky-500 underline col-start-1'>
           Integrating Robotics into Cooper Union Undergraduate Curriculum
@@ -31,7 +31,7 @@ export default function Engineering() {
           </a>
         </div>
         <div>
-          <ul className='flex flex-row justify-between text-m decoration-sky-500 underline'>
+          <ul className='flex flex-row flex-wrap justify-between text-m font-semibold'>
             <li>Python</li>
             <li>Robot Operating System</li>
             <li>MATLAB/Simulink</li>
@@ -63,7 +63,7 @@ export default function Engineering() {
           </a>
         </div>
         <div>
-          <ul className='flex flex-row justify-around text-m decoration-sky-500 underline'>
+          <ul className='flex flex-row flex-wrap justify-around text-m font-semibold'>
             <li>Arduino</li>
             <li>Solidworks</li>
             <li>IR/Sonar Sensors</li>

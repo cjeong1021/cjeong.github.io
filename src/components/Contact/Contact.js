@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className='w-3/4 h-screen grid place-content-center'>
+    <div className='w-3/4 h-screen p-4 grid place-content-center'>
       <div className='text-6xl decoration-sky-500 underline col-start-1'>
         Contact Me
       </div>
