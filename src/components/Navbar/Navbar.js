@@ -117,7 +117,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href='https://drive.google.com/file/d/1hrDGZRtQm2h9RZJOx7gvhnvL8KA2xA5-/view?usp=sharing'
+              href='https://drive.google.com/file/d/1yTAoPS1q_FYmwiGG2bffgjP7g4eq-1ZN/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
               class='flex items-center p-2 text-base font-normal text-gray-900 hover:bg-gray-100 transition hover:translate-x-2 hover:border-b-2 hover:border-black duration-300'
